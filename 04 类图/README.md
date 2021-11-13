@@ -114,14 +114,6 @@ calss Car
 
 ![image](https://user-images.githubusercontent.com/42632290/141610385-a2a3652f-0978-4235-9aa6-cb76b9efe6f7.png)  
 
-各种关系的强弱顺序：
-
-**泛化 = 实现 \> 组合 \> 聚合 \> 关联 \> 依赖**
-
-下面这张UML图，比较形象地展示了各种类图关系：
-
-![03439338z9D7.gif](media/cf62a8399306b370875cfbcb51b92fb3.gif)
-
 
 > 类图  
 
