@@ -66,9 +66,17 @@
 
 ![image](https://user-images.githubusercontent.com/42632290/141611544-16df0aea-b322-4290-a7ce-2aa1b2a9ede9.png)  
 
--   **递归调用：--\>×**
+-   **递归调用：**
 
 ![image](https://user-images.githubusercontent.com/42632290/141611954-749e1709-0485-47e5-9e99-e0b1eb941b5c.png)  
+
+-   **自身调用：**
+
+    图中显示调用它的 determineAvailableReports方法的系统对象。通过表示系统传递消息“determineAvailableReports”给它本身，模型把注意力集中到过程的事实上，而不是系统对象。
+
+    为了要画一个调用本身的对象，如你平时所作的，画一条消息，但是不是连接它到另外的一个对象，而是你把消息连接回对象本身。
+
+![image](https://user-images.githubusercontent.com/42632290/141612810-00f68e96-ceca-4947-98c3-c54bf4718275.png)  
 
 **分支结构**
 
@@ -112,7 +120,11 @@ ignore消息列表中的信息被忽略。通过assert组合区进行判断。
 
 与循环操作配合使用，如果执行，则跳出循环语句，表示在给定条件满足时退出交互序列。
 
-序列图：（以后补充）
+序列图：
+
+![image](https://user-images.githubusercontent.com/42632290/141612646-a1711ded-99c2-41a7-abdd-54686db5dfd5.png)  
+
+  当序列到达返回值“balance”的时候，它检查看看是否余额比金额更少。如果余额不少于金额，被传递的下一个消 息是addDebitTransaction 消息，而且序列正常继续。然而，在余额比金额更少的情况下，然后序列进入跳转组合碎片，它的消息被传递。一旦跳转组合的消息的已经被传递，序列不发送任何 其它消息就退出  
 
 **critical**
 
