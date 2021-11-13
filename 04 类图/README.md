@@ -71,6 +71,24 @@
 ![image](https://user-images.githubusercontent.com/42632290/141610283-dd0cad9f-d15f-41d0-a768-fb7623580ff0.png)  
 
   【代码表现】：作为全局/局部变量、方法的参数或作为返回值  
+```cpp
+class ZhangSan
+{
+ public:
+     //依赖关系  
+     void GoWork(Car * p)
+     {}
+     //依赖关系
+     car * fix()
+     {}
+}
+
+calss Car
+{
+ public:
+ private:
+}
+```
 
   【箭头及指向】：带箭头的虚线，指向被使用者
 
@@ -111,11 +129,21 @@
   
     类（类名，属性，操作）、关系（泛化，实现，关联，依赖等）
 
+  **类的表示法**  
 
+    类用矩形表示，顶部放类的名称；中间放类的属性，属性类型及值；底部存放类的方法，方法参数和返回类型  
+    
+    公有类型（public）：允许在类的外面使用或查看该属性(+)
 
+    受保护类型（protected）：允许子类访问父类中受保护类型的属性(#) 
 
+    私有类型（private）：只有类本身能够访问，外部一概不能(-)
 
+![image](https://user-images.githubusercontent.com/42632290/141610789-e0f66288-a455-4ea5-b71b-4789692b1170.png)  
 
+  示例：  
+
+![image](https://user-images.githubusercontent.com/42632290/141610846-0b5adcd8-6a22-41dd-a02b-7b25a1012b02.png)  
 
 
 
