@@ -201,10 +201,3 @@
 ![image](https://user-images.githubusercontent.com/42632290/141609274-f6674988-ded9-487f-abc4-e2eff75f1533.png)
 
                                          图23 表示扩展关系的UML符号
-
-
-
-> UML 元素可见性  
-
-![image](https://user-images.githubusercontent.com/42632290/141609758-eea76fa4-b273-4606-aefd-54982cb21ab0.png)  
-
