@@ -33,19 +33,19 @@
 
 **用例图（usecase diagram）**
 
--   定义：表示从系统外部看到的系统所提供给用户可以使用的功能  
+-   定义：描述用户需求，从用户的角度描述系统的功能    
 
--   使用：需求分析阶段，根据从用户收集来的需求，明确开发对象时使用  
+-   使用：需求分析阶段，帮助开发团队以一种可视化的方式理解系统的功能需求
 
 -   组成要素：参与者、用例、系统边界  
 
--   示例：  
+-   示例：  椭圆表示某个用例；人形符号表示角色  
 
-![image](https://user-images.githubusercontent.com/42632290/141603689-85536421-b0ec-40c7-bbf5-1d2d78f037be.png)  
+![image](https://user-images.githubusercontent.com/42632290/141609508-bd6f62f1-5706-4cd2-90a2-6eec4eed094b.png) 
 
 **类图（class diagram）**
 
--   定义：分析设计领域的静态结构  
+-   定义：显示系统的静态结构，表示不同的实体是如何相关联的   
 
 -   使用：描述系统的静态结构，任何开发阶段  
 
@@ -53,23 +53,23 @@
 
 -   示例：  
 
-![image](https://user-images.githubusercontent.com/42632290/141603792-6c98fe55-c583-46d3-96ab-2d9b1954b49d.png)  
+![image](https://user-images.githubusercontent.com/42632290/141609571-a4c6179f-61fe-4114-b8f4-de99131dc3e8.png)  
 
 **对象图（Object Diagram）**
 
--   定义：对象图描述在某一时刻系统内对象的状态。
+-   定义：类图的一个实例，描述系统在具体时间点上所包含的对象以及各个对象的关系  
 
--   使用：用来辅助决定类图中类和类之间的多重关系（关联关系？）
+-   使用：用来辅助决定类图中类和类之间的多重关系  
 
 -   要素：对象名、关系  
 
 -   示例：
 
-![image](https://user-images.githubusercontent.com/42632290/141603805-692e292c-4c3e-471f-a0b9-96b1d29ef8b2.png)  
+![image](https://user-images.githubusercontent.com/42632290/141609603-a12935f4-d29f-4224-89a5-058d78cd89b8.png)   
 
 **顺序图（Sequence Diagram)**
 
--   定义：交互图的一种。按照时间顺序来描述对象生命之间的消息交换  
+-   定义：描述对象之间的交互顺序，着重体现对象间消息传递的时间顺序  
 
 -   作用：描述系统的动态行为  
 
@@ -77,7 +77,7 @@
 
 -   示例：  
 
-![image](https://user-images.githubusercontent.com/42632290/141603828-5a056355-551e-425d-8ae5-34c7e37c3a0d.png)  
+![image](https://user-images.githubusercontent.com/42632290/141609666-94440c6e-66bf-4c98-8d86-47c69a608b79.png)  
 
 **通信图（Communication Diagram）**
 
@@ -186,9 +186,4 @@ UML应用
 单元测试、集成测试、系统测试、接收测试
 
 不同测试阶段使用不同的UML图作为他们的工作基础。单元测试使用类图和类的规格说明；集成测试典型的使用构件图和协作图。系统测试使用用例图来去人系统的行为是否符合这些图中的定义。
-
-> UML 中的关系  
-
-
-
 
