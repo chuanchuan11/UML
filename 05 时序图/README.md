@@ -100,9 +100,7 @@
 
 只有消息列表中的消息才能被执行。通过asser组合区进行判断。
 
-序列图：
-
-![clipboard.png](media/f09d9db486e0f4ba28221e4b88743dfc.png)
+序列图：（以后补充）
 
 **ignore消息列表**
 
